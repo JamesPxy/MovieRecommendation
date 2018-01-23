@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/in_theathers/in_theathers",
+    "pages/top_movies/top_movies",
+    "pages/detail/detail",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#268dcd",
+    "borderStyle": "white",
+    "backgroundColor": "#fafafa",
+    "list": [
+      {
+        "pagePath": "pages/in_theathers/in_theathers",
+        "iconPath": "image/icon_index_normal.png",
+        "selectedIconPath": "image/icon_index_select.png",
+        "text": "正在热映"
+      },
+      {
+        "pagePath": "pages/top_movies/top_movies",
+        "iconPath": "image/icon_top_normal.png",
+        "selectedIconPath": "image/icon_top_select.png",
+        "text": "top电影"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#268dcd",
+    "navigationBarTitleText": "电影走廊",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "debug": true
+}
