@@ -58,11 +58,14 @@ page{
   color: #666;
 }
 .film-info .rating{
-  color: #e09015;
+  color: #ff8a00;
+  font-size: 16px;
+  background: image/bg_rating;
 }
 .film-title{
  font-size: 18px;
  margin-right: 10px;
+ height: 20px;
 }
 .film-year{
   font-size: 16px;

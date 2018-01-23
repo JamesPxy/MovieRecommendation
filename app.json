@@ -1,13 +1,14 @@
 {
   "pages":[
+    "pages/index/index",
     "pages/in_theathers/in_theathers",
     "pages/top_movies/top_movies",
     "pages/detail/detail",
     "pages/logs/logs"
   ],
   "tabBar": {
-    "color": "#666",
-    "selectedColor": "#268dcd",
+    "color": "#BCBCBC",
+    "selectedColor": "#5B5983",
     "borderStyle": "white",
     "backgroundColor": "#fafafa",
     "list": [
