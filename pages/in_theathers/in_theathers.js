@@ -45,7 +45,7 @@ Page({
   viewDetail: function (event) {
     var dataset = event.currentTarget.dataset;
     wx.navigateTo({
-      url: '../detail/detail?id=' + dataset.id + '&title=' + dataset.title + '&type=inTheathers'
+      url: '../detail/detail?id=' + dataset.id + '&title=' + dataset.title + '&type=inTheathers'+"&image="+dataset.url
     })
   },
   // wx.updateShareMenu({

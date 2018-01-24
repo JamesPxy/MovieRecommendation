@@ -2,9 +2,7 @@
   "pages":[
     "pages/in_theathers/in_theathers",
     "pages/top_movies/top_movies",
-    "pages/detail/detail",
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/detail/detail"
   ],
   "tabBar": {
     "color": "#BCBCBC",
@@ -28,9 +26,10 @@
   },
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#268dcd",
+    "navigationBarBackgroundColor": "#010039",
     "navigationBarTitleText": "电影走廊",
     "navigationBarTextStyle": "white",
+    
     "enablePullDownRefresh": true
   },
   "debug": true

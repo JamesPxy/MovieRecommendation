@@ -5,8 +5,8 @@ var data = {
     "stars": "40",
     "min": 0
   },
-  "reviews_count": 5509,
-  "wish_count": 35382,
+  "reviews_count": 5767,
+  "wish_count": 36044,
   "douban_site": "https://site.douban.com/134767/",
   "year": "2018",
   "images": {
@@ -31,7 +31,7 @@ var data = {
     "爱情",
     "战争"
   ],
-  "collect_count": 151013,
+  "collect_count": 158165,
   "casts": [
     {
       "alt": "https://movie.douban.com/celebrity/1041014/",
@@ -90,8 +90,8 @@ var data = {
       "id": "1313682"
     }
   ],
-  "comments_count": 75025,
-  "ratings_count": 146132,
+  "comments_count": 78213,
+  "ratings_count": 152992,
   "aka": [
     "Forever Young"
   ]

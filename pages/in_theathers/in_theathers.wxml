@@ -6,7 +6,7 @@
 <block wx:else>
   <scroll-view style="height: 100%;" scroll-y="true" class="container film-list" bindscroll="scroll" bindscrolltolower="scrolltolower">
     <block wx:for-items="{{films}}" wx:for-item="film">
-      <view class="film-item" bindtap="viewDetail" data-id="{{film.id}}" data-title="{{film.title}}">
+      <view class="film-item" bindtap="viewDetail" data-id="{{film.id}}" data-title="{{film.title}}"  data-url="{{film.images.large}}">
         <view class="film-image">
         <!-- <image src="../image/bg_rating.png"></image>  -->
            <image src="{{film.images.medium}}"></image> 
@@ -16,7 +16,7 @@
              <view >
                 <text class="film-title">{{film.title}}</text>
              </view>
-             <view class='.film-first-right'>
+             <view class='film-first-right'>
                  <text class="pingfen">评分</text>
                  <text class="rating">{{film.rating.average}}</text>
             </view>

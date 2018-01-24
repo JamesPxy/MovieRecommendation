@@ -1,59 +1,66 @@
 <block wx:if="{{showLoading}}">
   <view class="page-loading">
     <text class="weui-loading" />
-    <text class="loading-text">玩命加载中</text>
+    <text class="loading-text">玩命加载中...</text>
   </view>
 </block>
 <block wx:else>
   <view class="container film-detail">
-    <view class="film-item">
-      <view class="film-image">
-        <image src="{{film.images.medium}}"></image>
+    <view class="film-image-bg">
+      <view class='film-image'>
+       <image src="{{url}}"></image>
+        <!-- <image src="{{film.images.large}}"></image> -->
       </view>
-      <view class="film-info">
-        <view>
-          <text class="film-title">{{name}}</text>
-          <text class="film-year">{{film.year}}</text>
+    </view>
+    <view class="film-item-data">
+      <view class='film-info-container'>
+        <view class="film-info">
+          <view>
+            <text class="film-title">{{name}}</text>
+          </view>
+          <view class="detail-directors">
+            <text class="detail-lable">导演：</text>
+            <block wx:for-items="{{film.directors}}" wx:for-item="director">
+              <text class="detail-data">{{director.name}}</text>
+            </block>
+          </view>
+          <view class="detail-casts">
+            <text class="detail-lable">主演：</text>
+            <block wx:for-items="{{film.casts}}" wx:for-item="cast">
+              <text class="detail-data">{{cast.name}}  </text>
+            </block>
+          </view>
+          <view class="genres">
+            <text class="detail-lable">类型：</text>
+            <block wx:for-items="{{film.genres}}" wx:for-item="genre">
+              <text class="detail-data">{{genre}}</text>
+            </block>
+          </view>
+          <view class="genres">
+            <text class="detail-lable">国家/地区：</text>
+            <block wx:for-items="{{film.countries}}" wx:for-item="country">
+              <text class="detail-data">{{country}}</text>
+            </block>
+          </view>
+          <view class="collect-wish">
+            <text class="see">看过:</text>
+            <text class='data'>{{film.collect_count}}</text>
+            <text class="see">  想看:</text>
+            <text class='data'>{{film.wish_count}}</text>
+          </view>
         </view>
-        <view class="film-rating">
-          <block wx:if="{{film.rating.average > 0}}">
-            <text class="label">评分：</text>
-            <text class="rating">{{film.rating.average}}</text>
-          </block>
-          <block wx:else>
-            <text class="label">暂无评分</text>
-          </block>
-        </view>
-        <view class="directors">
-          <text class="label">导演：</text>
-          <block wx:for-items="{{film.directors}}" wx:for-item="director">
-            <text class="person">{{director.name}}</text>
-          </block>
-        </view>
-        <view class="casts">
-          <text class="label">主演：</text>
-          <block wx:for-items="{{film.casts}}" wx:for-item="cast">
-            <text class="person">{{cast.name}}</text>
-          </block>
-        </view>
-        <view class="genres">
-          <text class="label">类型：</text>
-          <block wx:for-items="{{film.genres}}" wx:for-item="genre">
-            <text class="person">{{genre}}</text>
-          </block>
-        </view>
-        <view class="genres">
-          <text class="label">国家/地区：</text>
-          <block wx:for-items="{{film.countries}}" wx:for-item="country">
-            <text class="person">{{country}}</text>
-          </block>
-        </view>
-        <view class="collect-wish">
-        <text class="label">看过:</text>
-            <text>{{film.collect_count}}</text>
-            <text class="label">  想看:</text>
-            <text>{{film.wish_count}}</text>
-        </view>
+      </view>
+      <view class='film-info-right'>
+        <text class='rating'>8.0</text>
+        <block wx:if="{{starts}}>0">
+          <view class="rankstars">
+            <image class="image" src='../../image/icon_star_choose.png'></image>
+            <image class="image" src='../../image/icon_star_choose.png'></image>
+            <image class="image" src='../../image/icon_star_choose.png'></image>
+            <image class="image" src='../../image/icon_star_choose.png'></image>
+            <image class="image" src='../../image/icon_star_unchoose.png'></image>
+          </view>
+        </block>
       </view>
     </view>
     <view class="summary">

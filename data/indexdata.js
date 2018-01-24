@@ -52,7 +52,7 @@ var localData = {
       "collect_count": 156811,
       "original_title": "无问西东",
       "subtype": "movie",
-      "directors": [
+      "directors": [ 
         {
           "alt": "https://movie.douban.com/celebrity/1313682/",
           "avatars": {
