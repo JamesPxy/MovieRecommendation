@@ -8,32 +8,21 @@
     <block wx:for-items="{{films}}" wx:for-item="film">
       <view class="film-item" bindtap="viewDetail" data-id="{{film.id}}" data-title="{{film.title}}">
         <view class="film-image">
-          <image src="{{film.images.medium}}"></image>
+        <!-- <image src="../image/bg_rating.png"></image>  -->
+           <image src="{{film.images.medium}}"></image> 
         </view>
         <view class="film-info">
-          <view flex-direction:row>
-            <text class="film-title">{{film.title}}</text>
-           <view class="film-rating"  style="height:50px;flex-direction:column;"> 
-              <view>
-                <text class="label">评分</text>
-              </view>
-              <view>
-                <text class="rating">{{film.rating.average}}</text>
-              </view>
+        <view  class='film-first' >
+             <view >
+                <text class="film-title">{{film.title}}</text>
+             </view>
+             <view class='.film-first-right'>
+                 <text class="pingfen">评分</text>
+                 <text class="rating">{{film.rating.average}}</text>
             </view>
-    
-          </view>
-
-            <view class="film-rating"> 
-              <view>
-                <text class="label">评分</text>
-              </view>
-              <view>
-                <text class="rating">{{film.rating.average}}</text>
-              </view>
-            </view>
+        </view>
          
-          <view class="directors">
+          <view class="directors" style='margin-top:10px'>
             <text class="label">导演</text>
             <block wx:for-items="{{film.directors}}" wx:for-item="director">
               <text class="person">{{director.name}}</text>
@@ -55,3 +44,4 @@
     </view>
   </scroll-view>
 </block>
+

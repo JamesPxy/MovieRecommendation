@@ -1,9 +1,9 @@
 {
   "pages":[
-    "pages/index/index",
     "pages/in_theathers/in_theathers",
     "pages/top_movies/top_movies",
     "pages/detail/detail",
+    "pages/index/index",
     "pages/logs/logs"
   ],
   "tabBar": {
