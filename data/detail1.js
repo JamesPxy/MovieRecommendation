@@ -17,14 +17,14 @@ var data = {
   "alt": "https://movie.douban.com/subject/26942674/",
   "id": "26942674",
   "mobile_url": "https://movie.douban.com/subject/26942674/mobile",
-  "title": "神秘巨星",
+  "title": "无问东西",
   "do_count": null,
   "share_url": "https://m.douban.com/movie/subject/26942674",
   "seasons_count": null,
   "schedule_url": "https://movie.douban.com/subject/26942674/cinema/",
   "episodes_count": null,
   "countries": [
-    "印度"
+    "中国大陆"
   ],
   "genres": [
     "剧情",
@@ -39,7 +39,7 @@ var data = {
         "large": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1494080264.12.webp",
         "medium": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1494080264.12.webp"
       },
-      "name": "塞伊拉·沃西",
+      "name": "章子怡",
       "id": "1373292"
     },
     {
@@ -49,7 +49,7 @@ var data = {
         "large": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1510229457.27.webp",
         "medium": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1510229457.27.webp"
       },
-      "name": "梅·维贾",
+      "name": "黄晓明",
       "id": "1383897"
     },
     {
@@ -59,7 +59,7 @@ var data = {
         "large": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p13628.webp",
         "medium": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p13628.webp"
       },
-      "name": "阿米尔·汗",
+      "name": "拉杰·阿晶",
       "id": "1031931"
     },
     {
@@ -69,7 +69,7 @@ var data = {
         "large": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1510229759.29.webp",
         "medium": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1510229759.29.webp"
       },
-      "name": "拉杰·阿晶",
+      "name": "阿德瓦·香登",
       "id": "1383898"
     }
   ],
@@ -85,7 +85,7 @@ var data = {
         "large": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1509423054.09.webp",
         "medium": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1509423054.09.webp"
       },
-      "name": "阿德瓦·香登",
+      "name": "李芳芳",
       "id": "1379532"
     }
   ],
@@ -94,7 +94,6 @@ var data = {
   "aka": [
     "秘密巨星",
     "隐藏的大明星(台)",
-    "सीक्रेट सुपरस्टार"
   ]
 }
 // 定义数据出口

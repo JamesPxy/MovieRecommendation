@@ -27,7 +27,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#010039",
-    "navigationBarTitleText": "电影走廊",
+    "navigationBarTitleText": "电影快照",
     "navigationBarTextStyle": "white",
     
     "enablePullDownRefresh": true

@@ -8,12 +8,6 @@ Page({
     showLoading: true,
     start: 0
   },
-  onPullDownRefresh: function () {
-    console.log('onPullDownRefresh', new Date())
-  },
-  scroll: function (e) {
-    //console.log(e)
-  },
   onLoad: function () {
     var that = this
     // wx.showLoading({
@@ -29,30 +23,12 @@ Page({
       // wx.hideLoading()
     },1000);
   },
-  scrolltolower: function () {
-    var that = this
-    functions.getCity(function (city) {
-      // functions.fetchFilms.call(that, url, city, that.data.start, pageSize, function (data) { })
-      that.setData({
-        // films: data.subjects,
-        // start: data.start + data.subjects.length
-        start: data.total,
-        hasMore: false,
-        showLoading: false
-      });
-    })
-  },
   viewDetail: function (event) {
     var dataset = event.currentTarget.dataset;
     wx.navigateTo({
       url: '../detail/detail?id=' + dataset.id + '&title=' + dataset.title + '&type=inTheathers'+"&image="+dataset.url
     })
   },
-  // wx.updateShareMenu({
-  //   withShareTicket: true,
-  //   success() {
-  //   }
-  // }),
   //配置分享
   onShareAppMessage: function (res) {
     if (res.from === 'button') {
@@ -60,7 +36,7 @@ Page({
       console.log(res.target)
     }
     return {
-      title: '电影走廊',
+      title: '电影快照',
       path: 'pages/douban/in_theathers/in_theathers',
       // imgurl:'',
       success: function (res) {

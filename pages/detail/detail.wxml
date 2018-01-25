@@ -5,7 +5,7 @@
   </view>
 </block>
 <block wx:else>
-  <view class="container film-detail">
+  <view class="container">
     <view class="film-image-bg">
       <view class='film-image'>
        <image src="{{url}}"></image>
@@ -33,11 +33,11 @@
           <view class="genres">
             <text class="detail-lable">类型：</text>
             <block wx:for-items="{{film.genres}}" wx:for-item="genre">
-              <text class="detail-data">{{genre}}</text>
+              <text class="detail-data">{{genre}}  </text>
             </block>
           </view>
           <view class="genres">
-            <text class="detail-lable">国家/地区：</text>
+            <text class="detail-lable">国家：</text>
             <block wx:for-items="{{film.countries}}" wx:for-item="country">
               <text class="detail-data">{{country}}</text>
             </block>
@@ -52,7 +52,6 @@
       </view>
       <view class='film-info-right'>
         <text class='rating'>8.0</text>
-        <block wx:if="{{starts}}>0">
           <view class="rankstars">
             <image class="image" src='../../image/icon_star_choose.png'></image>
             <image class="image" src='../../image/icon_star_choose.png'></image>
@@ -60,7 +59,6 @@
             <image class="image" src='../../image/icon_star_choose.png'></image>
             <image class="image" src='../../image/icon_star_unchoose.png'></image>
           </view>
-        </block>
       </view>
     </view>
     <view class="summary">

@@ -1,99 +1,100 @@
 var data = {
   "rating": {
     "max": 10,
-    "average": 7.5,
+    "average": 8,
     "stars": "40",
     "min": 0
   },
-  "reviews_count": 5767,
-  "wish_count": 36044,
-  "douban_site": "https://site.douban.com/134767/",
-  "year": "2018",
+  "reviews_count": 1469,
+  "wish_count": 28057,
+  "douban_site": "",
+  "year": "2017",
   "images": {
-    "small": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2507572275.webp",
-    "large": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2507572275.webp",
-    "medium": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2507572275.webp"
+    "small": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2508925590.webp",
+    "large": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2508925590.webp",
+    "medium": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2508925590.webp"
   },
-  "alt": "https://movie.douban.com/subject/6874741/",
-  "id": "6874741",
-  "mobile_url": "https://movie.douban.com/subject/6874741/mobile",
-  "title": "无问西东",
+  "alt": "https://movie.douban.com/subject/26942674/",
+  "id": "26942674",
+  "mobile_url": "https://movie.douban.com/subject/26942674/mobile",
+  "title": "神秘巨星",
   "do_count": null,
-  "share_url": "https://m.douban.com/movie/subject/6874741",
+  "share_url": "https://m.douban.com/movie/subject/26942674",
   "seasons_count": null,
-  "schedule_url": "https://movie.douban.com/subject/6874741/cinema/",
+  "schedule_url": "https://movie.douban.com/subject/26942674/cinema/",
   "episodes_count": null,
   "countries": [
-    "中国大陆"
+    "印度"
   ],
   "genres": [
     "剧情",
-    "爱情",
-    "战争"
+    "音乐"
   ],
-  "collect_count": 158165,
+  "collect_count": 63855,
   "casts": [
     {
-      "alt": "https://movie.douban.com/celebrity/1041014/",
+      "alt": "https://movie.douban.com/celebrity/1373292/",
       "avatars": {
-        "small": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1359895311.0.webp",
-        "large": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1359895311.0.webp",
-        "medium": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1359895311.0.webp"
+        "small": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1494080264.12.webp",
+        "large": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1494080264.12.webp",
+        "medium": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1494080264.12.webp"
       },
-      "name": "章子怡",
-      "id": "1041014"
+      "name": "塞伊拉·沃西",
+      "id": "1373292"
     },
     {
-      "alt": "https://movie.douban.com/celebrity/1041404/",
+      "alt": "https://movie.douban.com/celebrity/1383897/",
       "avatars": {
-        "small": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1472787652.32.webp",
-        "large": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1472787652.32.webp",
-        "medium": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1472787652.32.webp"
+        "small": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1510229457.27.webp",
+        "large": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1510229457.27.webp",
+        "medium": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1510229457.27.webp"
       },
-      "name": "黄晓明",
-      "id": "1041404"
+      "name": "梅·维贾",
+      "id": "1383897"
     },
     {
-      "alt": "https://movie.douban.com/celebrity/1077991/",
+      "alt": "https://movie.douban.com/celebrity/1031931/",
       "avatars": {
-        "small": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1453574419.48.webp",
-        "large": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1453574419.48.webp",
-        "medium": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1453574419.48.webp"
+        "small": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p13628.webp",
+        "large": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p13628.webp",
+        "medium": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p13628.webp"
       },
-      "name": "张震",
-      "id": "1077991"
+      "name": "阿米尔·汗",
+      "id": "1031931"
     },
     {
-      "alt": "https://movie.douban.com/celebrity/1045243/",
+      "alt": "https://movie.douban.com/celebrity/1383898/",
       "avatars": {
-        "small": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p21771.webp",
-        "large": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p21771.webp",
-        "medium": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p21771.webp"
+        "small": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1510229759.29.webp",
+        "large": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1510229759.29.webp",
+        "medium": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1510229759.29.webp"
       },
-      "name": "王力宏",
-      "id": "1045243"
+      "name": "拉杰·阿晶",
+      "id": "1383898"
     }
   ],
   "current_season": null,
-  "original_title": "无问西东",
-  "summary": "如果提前了解了你所要面对的人生，你是否还会有勇气前来？吴岭澜、沈光耀、王敏佳、陈鹏、张果果，几个年轻人满怀诸多渴望，在四个非同凡响的时空中一路前行。\n吴岭澜（陈楚生 饰），出发时意气风发，却很快在途中迷失了方向。沈光耀（王力宏 饰），自愿参与了最残酷的战争，他一直在努力去做那些令他害怕，但重要的事。王敏佳（章子怡 饰）最初的错误，只是为了虚荣撒了一个小谎；最初的烦恼，只是在两个优秀的男人中选择一个。但命运，却把她拖入被众人唾骂的深渊。陈鹏（黄晓明 饰）把爱情摆在了理想前面，但爱情却没有把他摆在前面。他说，“我有人要照顾”，纵然这意味着与所有人作对，意味着要和她一起被放逐千里。张果果（张震 饰），身处尔虞我诈的职场，“赢”是他的习惯。为了赢，他总是见招拆招，先发制人。而有一天，他却面临了一个比“赢”更重要的选择。这几个年轻人，在最好的年纪迎来了最残酷的考验,并成就了永不褪色的青春传奇。",
+  "original_title": "Secret Superstar",
+  "summary": "14岁的印度少女尹希娅（塞伊拉·沃西 饰）热爱唱歌，因父亲阻挠，她只能蒙面拍摄并上传自弹自唱原创歌曲的视频，孰料凭借天籁歌喉在网上一炮而红，备受争议的音乐人夏克提·库马尔（阿米尔·汗 饰）也向她抛出橄榄枝，尹希娅的生活发生了翻天覆地的变化……",
   "subtype": "movie",
   "directors": [
     {
-      "alt": "https://movie.douban.com/celebrity/1313682/",
+      "alt": "https://movie.douban.com/celebrity/1379532/",
       "avatars": {
-        "small": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p19485.webp",
-        "large": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p19485.webp",
-        "medium": "https://img3.doubanio.com/view/celebrity/s_ratio_celebrity/public/p19485.webp"
+        "small": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1509423054.09.webp",
+        "large": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1509423054.09.webp",
+        "medium": "https://img1.doubanio.com/view/celebrity/s_ratio_celebrity/public/p1509423054.09.webp"
       },
-      "name": "李芳芳",
-      "id": "1313682"
+      "name": "阿德瓦·香登",
+      "id": "1379532"
     }
   ],
-  "comments_count": 78213,
-  "ratings_count": 152992,
+  "comments_count": 30352,
+  "ratings_count": 61479,
   "aka": [
-    "Forever Young"
+    "秘密巨星",
+    "隐藏的大明星(台)",
+    "सीक्रेट सुपरस्टार"
   ]
 }
 // 定义数据出口

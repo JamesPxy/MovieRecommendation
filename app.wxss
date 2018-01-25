@@ -44,7 +44,7 @@ page{
   margin-right: 8px;
   margin-top: 8px;
   background-color: #fff;
-  border: 1px solid #eaeaea;
+  border: 1px solid #eaeaea; 
   border-bottom: 1px solid #d0d0d0;
   border-radius: 5px;
 }
